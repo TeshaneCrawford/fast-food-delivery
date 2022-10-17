@@ -1,13 +1,7 @@
-
-import './App.css'
+import Layout from "./components/Layout/Layout";
 
 function App() {
-
-  return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
-  )
+  return <Layout />;
 }
 
-export default App
+export default App;
